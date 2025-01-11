@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
+    android:background="@drawable/bg"
+
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -15,51 +16,28 @@
         android:gravity="center">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Username"
-            android:textSize="20sp"
-            app:autoSizeMaxTextSize="20px" />
+            android:text="IP" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/ip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text" />
+            android:inputType="textPersonName" />
     </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center">
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/editTextText3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
+        android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:id="@+id/ip_button"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login" />
+            android:backgroundTint="#CD9393"
+            android:text="Start" />
     </TableRow>
 </LinearLayout>
